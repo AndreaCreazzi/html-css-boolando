@@ -8,6 +8,7 @@
 /*generics*/
 body{
     font-family: sans-serif;
+    margin-top: 100px;
 }
 
 img{
@@ -16,7 +17,82 @@ img{
     cursor: pointer;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul{
+    text-align: right;
+    padding: var(--space-sm);
+}
+
+.dashed{
+    border: 2px dashed black;
+}
+
 /*utility*/
+
+/*header*/
+.logo{
+    height: 30px;
+    padding-left: 400px;
+}
+
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    background-color: #ff6900;
+    height: 70px; 
+}
+
+.nav-row-left{
+    flex-basis: 25%;
+    min-height: var(--space-xxl);
+    padding: var(--space-sm);
+}
+
+.nav-row-middle{
+    flex-basis: 50%;
+    min-height: var(--space-xxl);
+}
+
+.nav-row-rigth{
+    flex-basis: 25%;
+    min-height: var(--space-xxl);
+    text-align: center;
+    padding: var(--space-sm);
+    color: white;
+}
+
+.fa-solid{
+    padding: 0 3px;
+}
+
+.fa-regular{
+    padding: 0 3px;
+}
+
+/*main*/
 .container{
     max-width: 1000px;
     margin: 0 auto;
