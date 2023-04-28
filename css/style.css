@@ -1,5 +1,98 @@
+/*reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*generics*/
+body{
+    font-family: sans-serif;
+}
+
+img{
+    height: 450px;
+    position: relative; 
+    cursor: pointer;
+}
+
+/*utility*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.col{ 
+    flex-basis: calc(100% / 3 -5px);
+}
+
+.card{
+    position: relative;
+}
+
+.discount-red{
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    top: 80%;
+}
+
+.discount-green{
+    position: absolute;
+    background-color: green;
+    color: white;
+    padding: 3px 5px;
+    top: 80%;
+    right: 55%;
+}
+
+.right{
+    right: 71%;
+}
+
+.clothes-save{
+    position: absolute;
+    padding: 3px 10px;
+    background-color: white;
+    top: 2%;
+    right: 0%;
+    font-size: 25px;
+}
+
+.shirt{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.card:hover .shirt{
+    z-index: -1;
+}
+
+.clothes-save:hover{
+    color: red;
+}
+
+.brands{
+    font-size: 13px;
+}
+
+.size{
+    font-size: 15px;
+}
+
+.price{
+    color: red;
+}
+
+.price-discount{
+    text-decoration: line-through;
 }
