@@ -34,6 +34,7 @@ li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 0 5px;
 }
 
 ul{
@@ -41,16 +42,12 @@ ul{
     padding: var(--space-sm);
 }
 
-.dashed{
-    border: 2px dashed black;
-}
-
 /*utility*/
 
 /*header*/
 .logo{
     height: 30px;
-    padding-left: 400px;
+    padding-left: 270px;
 }
 
 .flex-header{
@@ -66,30 +63,48 @@ ul{
 }
 
 .nav-row-left{
-    flex-basis: 25%;
+    flex-basis: 35%;
     min-height: var(--space-xxl);
     padding: var(--space-sm);
 }
 
 .nav-row-middle{
-    flex-basis: 50%;
+    flex-basis: 40%;
     min-height: var(--space-xxl);
 }
 
 .nav-row-rigth{
-    flex-basis: 25%;
+    flex-basis: 35%;
     min-height: var(--space-xxl);
     text-align: center;
     padding: var(--space-sm);
     color: white;
 }
 
+.nav-logos{
+    padding-right: 220px;
+}
+
 .fa-solid{
     padding: 0 3px;
+    cursor: pointer;
 }
 
 .fa-regular{
     padding: 0 3px;
+    cursor: pointer;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+.fa-regular:hover{
+    color: lightblue;
+}
+
+.fa-solid:hover{
+    color: lightblue;
 }
 
 /*main*/
@@ -172,4 +187,63 @@ ul{
 
 .price-discount{
     text-decoration: line-through;
+}
+
+/*footer*/
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerbar{
+    background-color: #1a1a1a;
+    height: 100px;
+    margin-top: 50px; 
+}
+
+.banner-row-left{
+    flex-basis: 40%;
+    min-height: var(--space-xxl);
+    padding: var(--space-sm);
+    font-size: 13px;
+}
+
+
+.banner-row-rigth{
+    flex-basis: 30%;
+    min-height: var(--space-xxl);
+    padding: var(--space-sm);
+    color: white;
+    
+    
+}
+
+.banner-title{
+    color: white;
+    text-align: left;
+    padding-left: 215px;
+    margin-bottom: 10px;
+}
+
+.banner-list{
+    text-align: left;
+    padding-left: 210px;
+}
+
+.banner-logos-title{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner-logos{
+    text-align: center;
+}
+
+.fa-brands{
+    padding: 0 2px;
 }
