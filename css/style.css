@@ -38,7 +38,6 @@ li a{
 
 ul{
     text-align: right;
-    padding: var(--space-sm);
 }
 
 /*utility*/
@@ -63,20 +62,15 @@ ul{
 
 .nav-row-left{
     flex-basis: 35%;
-    min-height: var(--space-xxl);
-    padding: var(--space-sm);
 }
 
 .nav-row-middle{
     flex-basis: 40%;
-    min-height: var(--space-xxl);
 }
 
 .nav-row-rigth{
     flex-basis: 35%;
-    min-height: var(--space-xxl);
     text-align: center;
-    padding: var(--space-sm);
     color: white;
 }
 
@@ -204,16 +198,12 @@ a:hover{
 
 .banner-row-left{
     flex-basis: 40%;
-    min-height: var(--space-xxl);
-    padding: var(--space-sm);
     font-size: 13px;
 }
 
 
 .banner-row-rigth{
     flex-basis: 30%;
-    min-height: var(--space-xxl);
-    padding: var(--space-sm);
     color: white;
     
     
